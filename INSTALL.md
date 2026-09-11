@@ -27,7 +27,11 @@ Turning notices off does not affect manual checks or your ability to use the app
 These Community installers are unsigned. Windows may show an unknown
 publisher, a warning, or a block depending on your device settings. Download only
 from the official release page. Never disable Windows security to install the app.
-If installation is blocked, report the exact warning on the Community issue tracker.
+If installation is blocked, leave it blocked and use the
+[installation-warning report](https://github.com/KadenB20/PROTOCOL-Community/issues/new?template=installation_warning.yml).
+The [warning guide](https://github.com/KadenB20/PROTOCOL-Community/blob/main/DOWNLOAD-SAFETY.md) distinguishes an unrecognised app from an
+antivirus threat detection or a device-policy block. [Release checks](https://github.com/KadenB20/PROTOCOL-Community/blob/main/RELEASE-CHECKS.md)
+record what was actually verified; they are not security certification.
 
 For an optional integrity check, compare the installer with `SHA256.txt` from the
 same release. PowerShell can show its checksum:

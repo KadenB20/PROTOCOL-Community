@@ -1,0 +1,49 @@
+name: Installation warning or antivirus block
+description: Report an unknown-publisher warning, threat detection or blocked installer.
+title: "[Installation] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Leave blocked files blocked. Do not disable protection, add exclusions or restore quarantined files to test them.
+        This report is public. Do not attach databases, backups, health records, private photos or credentials. Crop identifying details from screenshots.
+  - type: input
+    id: version
+    attributes:
+      label: PROTOCOL version and installer filename
+      description: Copy these from the release page or downloaded filename; you do not need to open the app.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Download page
+      description: Paste the public page URL, not a private or authenticated download link.
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: For example, Windows 11 25H2. Say if this is a work- or school-managed device.
+    validations:
+      required: true
+  - type: input
+    id: security_product
+    attributes:
+      label: Security software
+      description: Its name and version if known. If unsure which tool showed the warning, say so.
+    validations:
+      required: true
+  - type: textarea
+    id: warning
+    attributes:
+      label: Exact warning or threat name
+      description: Copy the message or attach a cropped screenshot. Say whether it happened during download, installation or app startup.
+    validations:
+      required: true
+  - type: input
+    id: checksum
+    attributes:
+      label: Installer SHA-256 (optional)
+      description: Include this if you checked the download. Do not upload the installer here.

@@ -5,9 +5,40 @@ recovery work, and PED plans together in one free Windows app for bodybuilders.
 
 [Download PROTOCOL for Windows](https://github.com/KadenB20/PROTOCOL-Community/releases)
 
+[![VirusTotal: View scan report](https://img.shields.io/badge/VirusTotal-View_scan_report-blue)](https://www.virustotal.com/gui/file/40afce362d237cc63343d5129958f053ac8e79fea6f69444de6fc00aa702d61a/detection)
+
+Scan report for the **0.10.0 Windows installer**. A scan is not a safety guarantee
+or publisher certification. [Recorded checks and details](verification/0.10.0.md).
+
+**Unsigned Windows installer.** Windows may show an unknown-publisher warning or
+block installation. Download only from this repository. If antivirus reports a
+threat, leave it blocked and report the message; do not turn off your protection.
+[Windows warnings and download checks](DOWNLOAD-SAFETY.md) ·
+[Release checks](RELEASE-CHECKS.md)
+
 Community is free proprietary software. No account, subscription, or activation is
 needed. This repository holds official downloads, release notes, and support
 information. The application source is private.
+
+Your records stay on your device. Optional online lookups and update checks need
+internet access. Records and backups are not encrypted by PROTOCOL.
+[Read the privacy details](PRIVACY.md).
+
+## A look inside
+
+Track your day, then look back across the weeks and phases.
+
+![Daily Tracker with bodyweight, sleep, activity and nutrition recorded across a week](images/daily-tracker.png)
+
+![Phase Timeline comparing weekly bodyweight, targets and nutrition across a cutting phase](images/phase-timeline.png)
+
+These screenshots use a fictional development workspace, not a person's health
+records. The sample numbers are not training, nutrition or medical advice.
+[Take a short walkthrough](GETTING-STARTED.md).
+
+## About the creator
+
+_Creator introduction to be added._
 
 ## What's included
 
@@ -191,11 +222,8 @@ installer. Keep the existing location and **do not uninstall first**.
 Your training history and other records are stored separately from the application.
 After installing, check the version in **Settings → Workspace & Data → About PROTOCOL**.
 
-These Community installers are unsigned. Windows may show an unknown
-publisher or a security warning. Use this official repository and compare the
-download with `SHA256.txt` if you want to check it. Do not disable Windows security
-to install PROTOCOL. If your PC blocks the installer, leave it blocked and report
-the message without including personal records.
+For a Windows warning, see [the warning guide](DOWNLOAD-SAFETY.md). It explains
+the different messages, how to check a download, and what to include in a report.
 
 ## Updates are your choice
 
