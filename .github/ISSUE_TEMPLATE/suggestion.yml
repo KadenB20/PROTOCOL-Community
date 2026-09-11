@@ -1,0 +1,10 @@
+name: Suggest an improvement
+description: Make planning, logging, or reviewing your progress easier.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What would help
+      description: Explain what you need to do and where the current workflow gets in your way.
+    validations:
+      required: true
