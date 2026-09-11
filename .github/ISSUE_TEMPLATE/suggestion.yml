@@ -5,6 +5,6 @@ body:
     id: need
     attributes:
       label: What would help
-      description: Explain what you need to do and where the current workflow gets in your way.
+      description: What would you like to do, and what makes it difficult at the moment?
     validations:
       required: true

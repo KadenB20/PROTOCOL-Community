@@ -5,8 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Leave blocked files blocked. Do not disable protection, add exclusions or restore quarantined files to test them.
-        This report is public. Do not attach databases, backups, health records, private photos or credentials. Crop identifying details from screenshots.
+        Leave the file blocked. Don't turn off your antivirus, add an exception or restore a quarantined file to test it.
+        Anyone can read this report. Don't attach backups, databases, health records, private photos, passwords or access tokens. Crop personal details out of screenshots.
   - type: input
     id: version
     attributes:
@@ -18,21 +18,21 @@ body:
     id: source
     attributes:
       label: Download page
-      description: Paste the public page URL, not a private or authenticated download link.
+      description: Link to the page where you found the download. Don't include a private sharing link.
     validations:
       required: true
   - type: input
     id: windows
     attributes:
       label: Windows version
-      description: For example, Windows 11 25H2. Say if this is a work- or school-managed device.
+      description: For example, Windows 11 25H2. Is this your own computer, or one managed by work or school?
     validations:
       required: true
   - type: input
     id: security_product
     attributes:
       label: Security software
-      description: Its name and version if known. If unsure which tool showed the warning, say so.
+      description: Which antivirus or Windows feature showed the warning? Include its version if you know it. It's OK if you're not sure.
     validations:
       required: true
   - type: textarea

@@ -1,65 +1,78 @@
 # Install and update PROTOCOL
 
+## Requirements
+
+PROTOCOL is a Windows desktop app and needs 64-bit Windows (x64) and Microsoft
+Edge WebView2. If WebView2 isn't installed, the installer may download it for you,
+so keep an internet connection available during setup.
+
+Install PROTOCOL before using it; it isn't a portable app that runs from a USB drive.
+
 ## First installation
 
 1. Open [official releases](https://github.com/KadenB20/PROTOCOL-Community/releases).
 2. Download the newest `PROTOCOL_<version>_x64-setup.exe`.
-3. Run it and keep the default location unless you have a reason to change it.
+3. Open the installer and follow the setup steps. The default location is fine.
 4. Open PROTOCOL and create your workspace. Choose your units and time zone.
 5. In Settings, hide sections you do not use. Start with your daily log or training.
 6. Use Backup & Restore to create and check a backup.
 
-Windows x64 and Microsoft Edge WebView2 are required. If WebView2 is missing, the
-installer may download it. This is an installed application, not a portable app.
-
 ## Updating your existing installation
 
-Create a backup, close PROTOCOL, and run the newer installer over your existing
-installation. Do not uninstall first or change the installation location.
-Your records are kept separately. Open Settings → Workspace & Data → About PROTOCOL
-to confirm the new version.
+1. Back up your records, then close PROTOCOL.
+2. Run the newer installer and keep the same installation location. **Don't uninstall first.**
+3. Open **Settings → Workspace & Data → About PROTOCOL** to check the new version.
 
-Update checks are optional. They contact GitHub and do not upload your records.
-Turning notices off does not affect manual checks or your ability to use the app.
+Your records are stored separately from the app and are kept when you update.
+
+You can check for updates in About PROTOCOL or turn on update notices. These
+checks contact GitHub but don't upload your records. With notices off, you can
+still check for updates yourself and keep using the app normally.
 
 ## Windows warnings
 
-These Community installers are unsigned. Windows may show an unknown
-publisher, a warning, or a block depending on your device settings. Download only
-from the official release page. Never disable Windows security to install the app.
-If installation is blocked, leave it blocked and use the
-[installation-warning report](https://github.com/KadenB20/PROTOCOL-Community/issues/new?template=installation_warning.yml).
-The [warning guide](https://github.com/KadenB20/PROTOCOL-Community/blob/main/DOWNLOAD-SAFETY.md) distinguishes an unrecognised app from an
-antivirus threat detection or a device-policy block. [Release checks](https://github.com/KadenB20/PROTOCOL-Community/blob/main/RELEASE-CHECKS.md)
-record what was actually verified; they are not security certification.
+The installer doesn't have a code-signing certificate, so Windows may show an
+unknown-publisher warning or block it. Download only from the official release
+page, and don't disable Windows security to install it.
 
-For an optional integrity check, compare the installer with `SHA256.txt` from the
-same release. PowerShell can show its checksum:
+See [Windows warnings](https://github.com/KadenB20/PROTOCOL-Community/blob/main/DOWNLOAD-SAFETY.md)
+for help with the message you're seeing. If your antivirus detects a threat,
+leave the file blocked and
+[report the warning](https://github.com/KadenB20/PROTOCOL-Community/issues/new?template=installation_warning.yml).
+
+To check whether your download matches the original file, compare its checksum
+with `SHA256.txt` from the same release. Run this in PowerShell from the folder
+containing the installer:
 
 ```powershell
 Get-FileHash .\PROTOCOL_<version>_x64-setup.exe -Algorithm SHA256
 ```
 
-Replace `<version>` with the version in the downloaded filename. A checksum detects
-a changed or incomplete download; it does not replace publisher signing.
+Replace `<version>` with the version in the downloaded filename. Compare the full
+result with `SHA256.txt`. If they differ, don't run the file. A matching checksum
+confirms you have the same file, not that the software is safe.
+
+Antivirus results and installation test details are listed under
+[release checks](https://github.com/KadenB20/PROTOCOL-Community/blob/main/RELEASE-CHECKS.md).
 
 ## Protect your progress
 
-Use Backup & Restore regularly, especially before an update. Keep an additional
-copy outside this PC. Backups include private records and are not encrypted.
+Use **Backup & Restore** regularly, especially before an update. Keep another copy
+somewhere private outside this PC. Backups contain your personal records and aren't
+encrypted, so anyone with access to the files may be able to read them.
 
-Before upgrading the data format, PROTOCOL creates a recovery backup. If this
-cannot be created and checked, the upgrade stops. A newer version may change the
-data format: reinstalling an older version is not a supported way to undo that.
-Keep the backup made before the update and report the problem.
+Some updates change how records are stored. Before making that change, PROTOCOL
+creates and checks a recovery backup. If that fails, the change won't go ahead.
+Reinstalling an older app version won't undo a change to your records. If an
+update fails, keep your backup and report the problem instead.
 
-Backup & Restore can validate a backup and test its contents in a separate folder.
-That test does not replace your active records. Do not overwrite the active data
-folder or delete database files to fix an update problem.
+**Backup & Restore** can also test a backup in a separate folder without replacing
+your current records. Don't overwrite your data folder or delete database files
+to try to fix an update problem.
 
 ## Where your records live
 
 Settings → Workspace & Data → Technical details shows the data folder for your
 installation. The standard Windows folder is `%APPDATA%\ca.protocol.app`.
-Uninstalling the app and deleting your records are separate actions. Do not remove
-the data folder unless you intend to erase your records and have checked your backup.
+Uninstalling PROTOCOL doesn't delete this folder. Only remove it if you intend to
+erase your records and have checked that your backup works.

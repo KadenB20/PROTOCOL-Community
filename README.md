@@ -1,28 +1,25 @@
 # PROTOCOL Community
 
-PROTOCOL brings your daily logs, meal plans, training, phases, health records,
-recovery work, and PED plans together in one free Windows app for bodybuilders.
+PROTOCOL is a free Windows app for keeping your bodybuilding plans and progress
+in one place. Track your training, food, bodyweight, check-ins, photos, recovery,
+health, and more, without spreading everything across different apps.
+
+No ads, subscriptions, or account required. It works offline, and your records
+stay on your own device.
 
 [Download PROTOCOL for Windows](https://github.com/KadenB20/PROTOCOL-Community/releases)
 
 [![VirusTotal: View scan report](https://img.shields.io/badge/VirusTotal-View_scan_report-blue)](https://www.virustotal.com/gui/file/40afce362d237cc63343d5129958f053ac8e79fea6f69444de6fc00aa702d61a/detection)
 
-Scan report for the **0.10.0 Windows installer**. A scan is not a safety guarantee
-or publisher certification. [Recorded checks and details](verification/0.10.0.md).
+For the **0.10.0 Windows installer**. [Scan details](verification/0.10.0.md).
 
-**Unsigned Windows installer.** Windows may show an unknown-publisher warning or
-block installation. Download only from this repository. If antivirus reports a
-threat, leave it blocked and report the message; do not turn off your protection.
-[Windows warnings and download checks](DOWNLOAD-SAFETY.md) ·
-[Release checks](RELEASE-CHECKS.md)
+**Windows may show a warning or block the download.** It can't currently verify
+the app's publisher. If your antivirus reports a threat, leave the file blocked
+and [report it](SUPPORT.md). Don't turn off your protection to install PROTOCOL.
+[Help with Windows warnings](DOWNLOAD-SAFETY.md).
 
-Community is free proprietary software. No account, subscription, or activation is
-needed. This repository holds official downloads, release notes, and support
-information. The application source is private.
-
-Your records stay on your device. Optional online lookups and update checks need
-internet access. Records and backups are not encrypted by PROTOCOL.
-[Read the privacy details](PRIVACY.md).
+[What's included](#whats-included) · [Install or update](#install-or-update) ·
+[About the creator](#about-the-creator)
 
 ## A look inside
 
@@ -32,13 +29,8 @@ Track your day, then look back across the weeks and phases.
 
 ![Phase Timeline comparing weekly bodyweight, targets and nutrition across a cutting phase](images/phase-timeline.png)
 
-These screenshots use a fictional development workspace, not a person's health
-records. The sample numbers are not training, nutrition or medical advice.
-[Take a short walkthrough](GETTING-STARTED.md).
-
-## About the creator
-
-_Creator introduction to be added._
+The screenshots use made-up example data, not anyone's personal records or
+recommended targets. [Getting started](GETTING-STARTED.md).
 
 ## What's included
 
@@ -59,7 +51,7 @@ _Creator introduction to be added._
 - Combine written questions, numbers, rating scales, yes/no answers, and choices
   with results from your tracked data.
 - Save an unfinished check-in, return to it later, and review previous answers.
-  Weekly reviews bring together your summary, notes, decisions, and follow-ups.
+  Keep notes on how the week went, what you want to change, and what to check next.
 
 ### Phase Timeline
 
@@ -67,13 +59,12 @@ _Creator introduction to be added._
   goals, and notes.
 - See bodyweight, nutrition, training, activity, recovery, and selected health
   records together, week by week.
-- Set weekly targets and record intended meal and training plans beside the
-  results. Add notes about changes, travel, illness, or anything else that helps
-  explain a week.
+- Set weekly targets and keep your meal and training plans beside your results.
+  Add notes about changes, travel, illness, or anything else that affected a week.
 - Compare phases, choose which rows and dates to show, save different Timeline
   views, and export the period you want to review.
-- Fill weekly targets or plan choices across a date range, review what will change,
-  and undo a fill when needed. Saved targets keep the units chosen for that entry.
+- Set targets or choose plans for several weeks at once, check the changes before
+  saving, and undo them if needed. Each target keeps the units you entered.
 
 ### Meal plans and nutrition
 
@@ -91,29 +82,29 @@ _Creator introduction to be added._
   different cuts, and food varieties.
 - Save your own foods with their label values, serving sizes, brands, prices,
   and notes. Keep the specific foods you eat available for meals and shopping.
-- Work with grams, millilitres, and saved serving sizes. Foods retain their source
-  information, and later library edits do not silently change old meal records.
+- Use grams, millilitres, or your own serving sizes. See where a food's nutrition
+  information came from. Editing a saved food won't change meals you've already logged.
 
 ### Grocery lists
 
 - Start a blank shopping list or build one from your meal plans for a chosen date
-  range. Add ordinary shopping items without creating a nutrition record first.
+  range. Add other shopping items directly to the list, too.
 - Allow for food already in your Pantry, amounts you want to keep, and whole
   package sizes. Save your own conversions, such as how much dry rice makes a
   cooked portion.
 - Organise shopping by aisle, store, or category. Record full or partial purchases,
-  unavailable items, prices, taxes, discounts, and other costs. A saved-food
-  purchase shows how much will be added to Pantry before you confirm it.
+  unavailable items, prices, taxes, discounts, and other costs. When buying a food
+  from your Food Library, check how much will be added to Pantry before saving it.
 
 ### Pantry
 
-- Track the food you have, with separate amounts, storage locations, expiry dates,
-  and notes for each stock entry.
+- Keep track of the food you have, how much is left, where it's stored, and when
+  it expires. Keep separate entries for different packages or batches.
 - See what is running low, expiring soon, expired, or used up. Set how much of a
   food you want to keep on hand and add shortages to a grocery list.
 - Add purchases or existing stock, record what you used or discarded, correct an
-  amount, move several entries, and review the history. When logging your day,
-  review any proposed Pantry deductions before applying them.
+  amount, move several entries, and review the history. When logging meals,
+  check the amounts before taking them out of your Pantry totals.
 
 ### Training programs and workout logbook
 
@@ -124,7 +115,7 @@ _Creator introduction to be added._
   sets, tempo, effort targets, progression details, and notes when you need them.
 - Log a completed workout from a program, a previous workout, or a blank entry.
   Record loads, reps, set types, effort, and notes with previous performance nearby.
-  PROTOCOL is designed for recording after training, not running a live workout timer.
+  The logbook is designed to be filled in after training; it isn't a live workout timer.
 - Save drafts, copy workouts, and correct completed records without losing the
   original history. Changes to today's program do not rewrite older workouts.
 
@@ -134,19 +125,19 @@ _Creator introduction to be added._
   date range.
 - Follow exercise performance, estimated one-rep maxes, personal records, and
   muscle-group set totals.
-- Compare periods and programs, review incomplete records, and open the workout
-  behind a result when you want to check or correct it.
+- Compare periods and programs, find unfinished logs, and open the original
+  workout to check or correct an entry.
 
 ### Exercise Library
 
-- Browse the bundled exercise library with illustrations, instructions, equipment,
+- Browse the built-in exercise library with illustrations, instructions, equipment,
   and muscle information, including when you are offline.
 - Search by exercise, muscle, or equipment; keep favourites; and add your own
-  exercises, variations, technique notes, and reference media.
+  exercises, variations, technique notes, images, and videos.
 - Use saved exercises in programs and workout records, find alternatives when
   changing a movement, and review an exercise's own performance history.
-- Preview exercise imports before applying them, review imported media, and choose
-  which records to include in an export.
+- Bring in exercise lists and check their details and files before saving them.
+  Choose which exercises to include when exporting a list.
 
 ### Rehab and mobility
 
@@ -154,22 +145,20 @@ _Creator introduction to be added._
   Build them from your own movements or the Movement Library.
 - Log completed work with as little as a name and date. Add sets, reps, time,
   movement notes, or how it felt when that detail is useful.
-- Keep recovery notes, follow-ups, and dated movement assessments, including pain
-  responses or range-of-motion measurements you choose to record.
-- Review routine history and compare compatible measurements over time. These
-  records describe what you did; they do not diagnose an injury or choose treatment.
+- Keep recovery notes, follow-ups, and movement assessments, including pain and
+  range-of-motion measurements.
+- Look back at completed routines and compare measurements over time.
 
 ### Bloodwork and health
 
 - Record blood pressure, resting heart rate, glucose, and other health readings
   with dates, units, notes, and measurement details.
-- Enter bloodwork results or review a CSV import before saving it. Attach the
-  original report and keep each result's lab-provided range, units, and flags.
+- Enter bloodwork results or import them from a file. Attach the original report
+  and keep the lab's reference ranges, units, and flagged results.
 - Follow changes across tests and choose which markers to review. Add custom
   bloodwork markers when you need something outside the built-in list.
 - Keep symptom episodes, medication details, monitoring plans, and follow-up dates
-  together. Review unfinished entries and earlier corrections without turning the
-  results into a diagnosis or treatment recommendation.
+  together. Return to unfinished entries and see earlier corrections.
 
 ### PED Planner
 
@@ -179,8 +168,8 @@ _Creator introduction to be added._
   containers, and costs for a chosen period, with the calculation details visible.
 - Assign cycles to weeks in Phase Timeline and inspect the planned dates and
   amounts in Calendar. Keep weekly notes with those assignments.
-- This section is optional and requires an acknowledgement before use. It records
-  your plans; it does not recommend PED use, doses, combinations, or schedules.
+- This section is optional. You'll need to read and accept its safety notice
+  before using it. It doesn't recommend PED use, doses, combinations, or schedules.
 
 ### Calculators
 
@@ -190,8 +179,8 @@ _Creator introduction to be added._
   weight-change rates, and calculate a goal weight from the assumptions you enter.
 - Estimate a one-rep max and work out plate or machine-stack loading using saved
   equipment details.
-- Save and compare results with their original inputs, units, formulas, and
-  limitations. A calculation does not automatically change your plans or records.
+- Save results to compare later, with the measurements and formulas used to
+  calculate them. Running a calculator won't change your meal plans or targets.
 
 ### Vault: photos, documents, and links
 
@@ -207,41 +196,79 @@ _Creator introduction to be added._
   feature keeps its saved records and settings.
 - Customise your Overview with the information you want to review, keep tasks and
   notes, and choose your units, time zone, currency, and light or dark appearance.
-- Create full backups, check that they are valid, and test a restore in a separate
-  folder. Export records from the sections that offer it, with a review of what
-  will be included.
+- Back up your records and check that a backup can be opened without replacing
+  your current data. Export records from supported sections and check what's
+  included before saving the file.
 - Keep app feedback and improvement ideas in Product Notes. Check for new releases
   manually or turn on optional update notices.
 
 ## Install or update
 
-Download the latest `PROTOCOL_<version>_x64-setup.exe` from Releases and run it.
-If you already use PROTOCOL, create a backup, close the app, and run the newer
-installer. Keep the existing location and **do not uninstall first**.
+Download the Windows installer from the
+[latest release](https://github.com/KadenB20/PROTOCOL-Community/releases/latest)
+and open it. [Installation instructions](INSTALL.md).
 
-Your training history and other records are stored separately from the application.
-After installing, check the version in **Settings → Workspace & Data → About PROTOCOL**.
+Already using PROTOCOL? Back up your records, close the app, and run the newer
+installer in the same location. **Don't uninstall first.** Your saved records
+are kept separately from the app.
 
-For a Windows warning, see [the warning guide](DOWNLOAD-SAFETY.md). It explains
-the different messages, how to check a download, and what to include in a report.
-
-## Updates are your choice
-
-In About PROTOCOL, use **Check for updates**, or turn on **Let me know when a new
-version is ready**. You download and run the installer when it suits you. PROTOCOL
-does not install updates or restart in the background. Release notes explain what
-changed and anything you need to do.
+In **Settings → Workspace & Data → About PROTOCOL**, you can check for updates or
+turn on update notices. You choose when to download and install them. PROTOCOL
+won't install an update or restart itself while you're using it.
 
 ## Before you start
 
-- Windows x64 and Microsoft Edge WebView2 are required. The installer may need
-  internet access to install WebView2 if it is missing.
+- You'll need a Windows PC. Installation may need an internet connection to
+  download a required Windows component. See [system requirements](INSTALL.md#requirements).
 - The app works offline after installation. Optional online food and exercise
   lookups, update checks, and web links need an internet connection.
-- Records and backups are **not encrypted by PROTOCOL**. Keep them somewhere private.
+- Keep your records and backups somewhere private. Anyone with access to the files
+  may be able to read them. [Privacy details](PRIVACY.md).
 - Use **Backup & Restore** to keep a separate copy of your progress.
 - Health and PED sections record information and plans you enter. They do not
   recommend treatment, PED use, or doses.
+
+## About the creator
+
+Hi, my name's Kaden, and I love bodybuilding.
+
+Like most other bodybuilders, I really enjoy the workouts, the diet, the lifestyle,
+and obviously making progress. But what I really love is data — more specifically,
+tracking all of the data related to my bodybuilding progress so I can make accurate
+and informed decisions for myself and my clients.
+
+Over the years I tried all kinds of different coaching and tracking systems like
+Kahunas, Trainerize, Hevy, and plenty of others. Eventually, like a lot of people,
+I ended up using a bunch of different apps and systems at the same time. I had one
+app to track and plan my workouts, another to record my daily weigh-ins, I created
+my meal plans in MyFitnessPal and wrote them down on paper, uploaded my check-in
+photos to a Google Drive folder, and then, to top it all off, manually combined all
+of that data into a spreadsheet so I could actually track everything and plan
+around it.
+
+It worked, but it took forever.
+
+I'd miss weigh-ins, forget meal amounts or changes I'd made to my meal plan, lose
+track of what was stored where, and constantly run into tons of other frustrating
+little problems that I really shouldn't have had to think about in the first place.
+
+That's why I created PROTOCOL.
+
+I wanted one place where I could track the things that actually matter to me as a
+bodybuilder — training, nutrition, bodyweight, progress photos, recovery, health
+data, bloodwork, phases, PED plans, and everything else — without needing five
+different apps, three subscriptions, a spreadsheet, and a pile of notes to make
+it all work together.
+
+And because I built PROTOCOL to solve a problem I personally had, I don't want to
+turn around and recreate the same problems that frustrated me in the first place.
+
+That's why PROTOCOL Community is free, and why I want this version and its future
+updates to stay completely free. No ads. No subscriptions. No tracking. No account,
+login, or email required. It works offline, and your records stay on your own device.
+
+It's the bodybuilding tracking system I always wanted to have, so I decided to
+build it.
 
 [Installation and recovery](INSTALL.md) · [Privacy](PRIVACY.md) ·
 [Free use licence](LICENSE.md) · [Credits](THIRD-PARTY-NOTICES.md) ·
