@@ -12,6 +12,7 @@ stay on your own device.
 [![VirusTotal: View scan report](https://img.shields.io/badge/VirusTotal-View_scan_report-blue)](https://www.virustotal.com/gui/file/40afce362d237cc63343d5129958f053ac8e79fea6f69444de6fc00aa702d61a/detection)
 
 For the **0.10.0 Windows installer**. [Scan details](verification/0.10.0.md).
+For checks covering other versions, see [release verification](RELEASE-CHECKS.md).
 
 **Windows may show a warning or block the download.** It can't currently verify
 the app's publisher. If your antivirus reports a threat, leave the file blocked
@@ -199,8 +200,10 @@ recommended targets. [Getting started](GETTING-STARTED.md).
 - Back up your records and check that a backup can be opened without replacing
   your current data. Export records from supported sections and check what's
   included before saving the file.
-- Keep app feedback and improvement ideas in Product Notes. Check for new releases
-  manually or turn on optional update notices.
+- Keep personal notes and prepare problem reports or suggestions in Product Notes.
+  From 0.10.1, add screenshots and optional technical details, then review and
+  share the report through GitHub. [Reporting instructions](SUPPORT.md).
+- Check for new releases manually or turn on optional update notices.
 
 ## Install or update
 

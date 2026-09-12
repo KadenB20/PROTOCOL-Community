@@ -32,6 +32,30 @@ apply there.
 
 ## Support and sharing
 
+Versions with GitHub handoff keep problem and suggestion drafts, selected
+screenshots, and diagnostic snapshots locally. A small local operation log keeps
+at most 200 events for seven days. Events contain technical operation categories,
+timestamps and success/failure states, not entered values, record contents, file
+paths, credentials, or raw error messages. The snapshot can include app, Windows,
+WebView and database-schema versions, theme, viewport dimensions and display scale.
+Saved report snapshots remain until you delete the draft, even after the rolling
+operation log expires. Deleting a draft does not remove ZIPs you previously exported.
+
+You can inspect these details and exclude them before sharing. Screenshot files
+are re-encoded locally to remove metadata and original filenames, but information
+visible in the image is not automatically hidden. Crop or redact private content
+before adding an image.
+
+Opening the GitHub form sends the reviewed prefilled text to GitHub and may put
+it in your browser history. It does not submit the issue or upload local files.
+GitHub uploads attachments as soon as you select them there, even before you
+submit the issue. Exporting a report ZIP only writes a local file. Reports do not
+require a PROTOCOL account; submitting on GitHub requires a GitHub account.
+
+Support drafts are separate from ordinary workspace backups. You can export them
+as report ZIPs and delete local drafts in Product Notes. Local deletion does not
+delete a public GitHub issue or an uploaded attachment.
+
 Nothing is uploaded automatically with a support request. GitHub reports and any
 screenshots you attach are public. Don't post a backup, database, bloodwork
 report, private photo, address, password, access token, or another person's information.

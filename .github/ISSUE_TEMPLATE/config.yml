@@ -1,0 +1,9 @@
+# Blank issues are the lossless handoff for reports that exceed URL limits.
+blank_issues_enabled: true
+contact_links:
+  - name: Known issues and existing reports
+    url: https://github.com/KadenB20/PROTOCOL-Community/issues
+    about: Check whether a problem has already been reported.
+  - name: Report a security vulnerability privately
+    url: https://github.com/KadenB20/PROTOCOL-Community/security/advisories/new
+    about: Do not publish exploit details or private records in a public issue.

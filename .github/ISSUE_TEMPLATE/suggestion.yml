@@ -1,6 +1,10 @@
 name: Suggest an improvement
 description: Make planning, logging, or reviewing your progress easier.
+labels: [enhancement]
 body:
+  - type: markdown
+    attributes:
+      value: "Reports and files uploaded here are public. Remove personal records and identifying details before sharing."
   - type: textarea
     id: need
     attributes:
@@ -8,3 +12,34 @@ body:
       description: What would you like to do, and what makes it difficult at the moment?
     validations:
       required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page or module
+  - type: input
+    id: version
+    attributes:
+      label: PROTOCOL version
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical details (optional)
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Remove private information before selecting files; uploading starts immediately.
+    validations:
+      accept: ".png,.jpg,.jpeg"
+      required: false
+  - type: upload
+    id: diagnostics
+    attributes:
+      label: PROTOCOL diagnostics (optional)
+    validations:
+      accept: ".txt"
+      required: false

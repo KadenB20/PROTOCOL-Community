@@ -1,5 +1,6 @@
 name: Report a problem
 description: Something did not work as expected.
+labels: [bug]
 body:
   - type: markdown
     attributes:
@@ -25,8 +26,36 @@ body:
     validations:
       required: true
   - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+  - type: input
+    id: page
+    attributes:
+      label: Page or module
+  - type: textarea
     id: steps
     attributes:
       label: Steps to repeat the problem
+      description: Leave blank or say you cannot reproduce it if you are unsure.
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical details
+      description: Optional details prepared by PROTOCOL. Do not paste raw database errors or personal paths.
+  - type: upload
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Crop out private information before uploading. Files upload when selected, before you submit the issue.
     validations:
-      required: true
+      accept: ".png,.jpg,.jpeg"
+      required: false
+  - type: upload
+    id: diagnostics
+    attributes:
+      label: PROTOCOL diagnostics (optional)
+      description: Extract diagnostics.txt from the report ZIP. Do not attach a database, workspace backup, or unrelated log.
+    validations:
+      accept: ".txt"
+      required: false
