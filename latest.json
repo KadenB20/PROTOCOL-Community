@@ -1,5 +1,5 @@
 {
-  "version": "0.10.0",
-  "publishedAt": "2026-09-11T16:42:36Z",
-  "summary": "The latest training, nutrition, and planning updates are ready. See the release notes before installing."
+  "version": "0.10.1",
+  "publishedAt": "2026-09-12T03:34:39Z",
+  "summary": "This patch adds a way to prepare problem reports and suggestions inside PROTOCOL, then share them through the public Community issue tracker."
 }
