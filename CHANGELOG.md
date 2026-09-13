@@ -1,5 +1,45 @@
 # PROTOCOL Community release notes
 
+# PROTOCOL 0.11.0 — Check-in Photos and faster daily logging
+
+Organize and compare check-in photos in their own workspace, copy saved Daily Tracker values across a week with Undo, and enter grocery purchases with clearer quantities and previews.
+
+## Check-in Photos
+
+- Open Check-in Photos under Tools to import, organize and compare photos. Dates, poses, sets, collections and phase links are optional.
+- Browse a photo library or calendar, filter your collection, mark favorites and save views. Archive photos and restore them later.
+- Compare two or four photos with alignment controls, overlays and a reveal slider. Save comparisons, export images or download the originals.
+- Choose a bodybuilding division for pose references and import defaults, or use your own poses. Imported photos appear immediately, including undated photos and imports made while filters are active.
+- Photos stay on your device. Originals remain unchanged, and referenced originals are protected from deletion through Vault. Existing legacy photo records are copied into the new workspace while their original history is retained.
+
+## Daily Tracker
+
+- Drag a saved value's corner handle across visible days to copy it. Supported cells include numeric measurements, ratings, sleep, resting heart rate, blood pressure and saved meal-plan selections.
+- Use the keyboard or tap the handle to choose a range or fill empty cells only. Undo restores the previous values and protects edits made since the fill.
+- Values and weekly totals update promptly while saving. Missing values remain distinct from zero, future days are excluded, and unrelated sleep details or extra foods are preserved.
+
+## Groceries
+
+- Purchase entry starts with quantity and a compatible unit or package, with optional total paid.
+- A preview shows the purchase amount, what it adds to Pantry and the remaining shopping need. Storage details and other outcomes are available when needed.
+- Shopping grouping is easier to find, and purchase actions remain visible at the bottom of the dialog.
+
+## Updating and your data
+
+Close PROTOCOL and run the new installer over your existing installation. Your workspace and files stay in their current location.
+
+This update adds storage for Check-in Photos. Before changing an existing database, PROTOCOL creates and validates a recovery backup; a failed backup stops the update to your data. Keep your pre-update backups. Older app versions cannot open the updated database.
+
+Check-in Photos metadata and originals are included in ordinary workspace backups. Product report drafts and their screenshots continue to use their separate local support store.
+
+JPEG, PNG, WebP, GIF, BMP and AVIF imports use the existing 10 MB per-file limit. Convert HEIC photos before importing. Downloaded originals retain their original metadata; generated comparison and contact-sheet images do not include original EXIF or GPS metadata.
+
+The Windows installer remains unsigned. See the installation and download-safety guides if Windows displays a warning.
+
+[Download v0.11.0](https://github.com/KadenB20/PROTOCOL-Community/releases/tag/v0.11.0)
+
+---
+
 # PROTOCOL 0.10.1 Community
 
 This patch adds a way to prepare problem reports and suggestions inside PROTOCOL,
