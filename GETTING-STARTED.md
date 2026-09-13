@@ -10,6 +10,10 @@ nutrition and other details you want to keep. You can return to an earlier day
 to finish or correct it. If you don't know a value, leave it blank rather than
 entering zero.
 
+To copy a saved value across the visible week, drag its corner handle. Tap the
+handle or use the keyboard to choose a range or fill empty cells only. Undo
+restores the previous values. Only copy values that reflect what happened.
+
 ![A populated week in Daily Tracker, including bodyweight, sleep and nutrition](images/daily-tracker.png)
 
 ## Add meals and training
@@ -36,6 +40,16 @@ recorded results with your targets. Choose the dates and rows you want to review
 Phase names and notes help explain what changed during that period.
 
 ![Weekly bodyweight and nutrition across a fictional cutting phase in Phase Timeline](images/phase-timeline.png)
+
+## Organize and compare photos
+
+Open Check-in Photos under Tools and choose Import photos. Dates, poses and
+grouping are optional. Select photos to compare them, or organize them with sets,
+collections and favorites. Choose your division in Check-in Photos settings if
+you want matching pose references. Convert HEIC files before importing.
+
+Photos stay on your device and are included in workspace backups. Downloading an
+original keeps its original metadata, so review it before sharing outside PROTOCOL.
 
 ## Keep only what you need visible
 

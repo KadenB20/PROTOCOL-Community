@@ -183,6 +183,13 @@ recommended targets. [Getting started](GETTING-STARTED.md).
 - Save results to compare later, with the measurements and formulas used to
   calculate them. Running a calculator won't change your meal plans or targets.
 
+### Check-in Photos
+
+- Import photos into their own library, with optional dates, poses, sets, collections and phase links.
+- Compare two or four photos with alignment, overlay and reveal controls. Save comparisons and export images or originals.
+- Use a photo calendar, filters, favorites and saved views to revisit your progress. Choose a bodybuilding division for pose references, or use custom poses.
+- Keep your original files unchanged and on your device. Check-in Photos works independently of Daily Tracker.
+
 ### Vault: photos, documents, and links
 
 - Keep progress photos, lab reports, reference documents, and useful website links
@@ -272,31 +279,6 @@ login, or email required. It works offline, and your records stay on your own de
 
 It's the bodybuilding tracking system I always wanted to have, so I decided to
 build it.
-
-### Artificial Intelligence Disclosure
-
-I also want to be transparent about how PROTOCOL was created: I didn't personally write
-the application's code. PROTOCOL has been developed using AI as the primary implementation tool,
-with every feature, system, workflow, and major decision designed, directed, reviewed, and
-approved by me.
-
-That distinction is important to me because PROTOCOL isn't something I generated from a few
-prompts and pushed out the door to try and make a quick buck.
-
-The project actually started as a spreadsheet I began building in August 2025 because I wanted a
-better way to manage my own bodybuilding data. I designed the structure, workflows, calculations,
-and logic myself, using AI to help me write formulas and solve technical problems. As AI
-development tools became dramatically more capable, that spreadsheet eventually became the
-foundation for the software PROTOCOL is today.
-
-I approach the software the same way I approached that original spreadsheet: deliberately.
-Features are planned around a specific problem, how they interact with the rest of the system
-is considered before they're implemented, and nothing becomes part of PROTOCOL simply because an
-AI model suggested it.
-
-AI allows me to build software that I otherwise would not have had the programming experience or
-resources to create on my own. But PROTOCOL itself — what it does, why it exists, how it works,
-and where it goes next, is something I design and direct.
 
 [Installation and recovery](INSTALL.md) · [Privacy](PRIVACY.md) ·
 [Free use licence](LICENSE.md) · [Credits](THIRD-PARTY-NOTICES.md) ·
