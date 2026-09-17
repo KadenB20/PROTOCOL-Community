@@ -1,5 +1,44 @@
 # PROTOCOL Community release notes
 
+# PROTOCOL 0.12.0 — New onboarding and workspace customization
+
+Start with a workspace that fits your routine, customize it at your own pace, and return to setup whenever you need. This release overhauls onboarding, settings discovery, saved views and Vault, with clearer wording throughout the app.
+
+## What's new
+
+- **A new setup flow.** Choose your basic preferences and one of five starting presets, or select your own areas with Custom Setup. Start using PROTOCOL immediately or continue through optional settings, views, tracking setup and a final review. Resume later from Settings → Workspace & Data → Resume Setup.
+- **Presets you can change deliberately.** Preview the exact changes before applying another preset, with your own adjustments preserved by default. Existing workspaces keep their configuration after updating. Full Workspace includes PED Planner visibility; its separate first-use acknowledgement still applies.
+- **Settings that are easier to find.** Search individual controls and saved configurations, see current values, jump to the right editor and save options for later. Browsing a disabled area does not enable it.
+- **Reusable Daily and review views.** Save Daily field order, visibility and spacing. Create Training, Recovery and Phase review views with chosen sections and date ranges, then return to the original records to make changes.
+- **Portable configuration profiles.** Save, review, export and import workspace configurations. These contain configuration rather than personal records; review included view names and card titles before sharing. Applying an imported profile remains a separate action.
+- **Restore during first launch.** In the Windows app, choose a PROTOCOL backup, review its checked contents and restore into an empty workspace before creating a new one.
+- **A refreshed Vault.** Browse files, favorites, links and archived items in the updated workspace. Open images in the shared photo viewer with zoom and navigation; open other files in their Windows default app while keeping the stored original unchanged. Details and version history remain separately accessible.
+
+## Improvements and fixes
+
+- Setup opens the same working editors used throughout PROTOCOL and records successfully saved items. Failed setup-reference saves can be retried without recreating the item.
+- Clearer labels and descriptions across setup, settings, nutrition, Training, Rehab, Health, phases and startup screens.
+- More reliable links back to setup and to individual settings, including cold launches and return navigation.
+- Visible weekly Daily fields appear before the first entry. Optional fields remain optional, and missing values remain distinct from recorded zero.
+- Corrected Training frequency counts, clearer custom Rehab rating validation, and more complete Vault entry selection with recovery when loading fails.
+
+## Updating
+
+Create and check a backup in Backup & Restore before updating, and keep a separate copy. Close PROTOCOL, download the Windows installer below and run it over your current installation. Your workspace and saved records are retained; existing users are not automatically enrolled in setup or switched to a preset.
+
+This release updates the database format from 46 to 47. PROTOCOL creates a recovery backup before migration. After migration, older app versions cannot open that database; keep the pre-update backup.
+
+## Notes
+
+- The Windows installer remains unsigned. Follow the [download safety guidance](https://github.com/KadenB20/PROTOCOL-Community/blob/main/DOWNLOAD-SAFETY.md).
+- Records, photos and backups remain local and are not encrypted by PROTOCOL. Product Notes report drafts use their separate local support store.
+- First-run restore requires the installed Windows app. The browser preview does not restore desktop backups.
+- PROTOCOL remains free, with no account, subscription or automatic software installation.
+
+[Download v0.12.0](https://github.com/KadenB20/PROTOCOL-Community/releases/tag/v0.12.0)
+
+---
+
 # PROTOCOL 0.11.0 — Check-in Photos and faster daily logging
 
 Organize and compare check-in photos in their own workspace, copy saved Daily Tracker values across a week with Undo, and enter grocery purchases with clearer quantities and previews.

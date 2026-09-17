@@ -1,5 +1,5 @@
 {
-  "version": "0.11.0",
-  "publishedAt": "2026-09-13T18:03:41Z",
-  "summary": "Organize and compare check-in photos in their own workspace, copy saved Daily Tracker values across a week with Undo, and enter grocery purchases with clearer quantities and previews."
+  "version": "0.12.0",
+  "publishedAt": "2026-09-17T01:04:50Z",
+  "summary": "Start with a workspace that fits your routine, customize it at your own pace, and return to setup whenever you need. This release overhauls onboarding, settings discovery, saved views and Vault, with clearer wording throughout the app."
 }
