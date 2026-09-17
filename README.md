@@ -7,6 +7,10 @@ health, and more, without spreading everything across different apps.
 No ads, subscriptions, or account required. It works offline, and your records
 stay on your own device.
 
+Choose a starting preset or customize your workspace, then start tracking right
+away. Optional setup stays available in Settings, with searchable controls and
+saved views you can return to as your routine changes.
+
 [Download PROTOCOL for Windows](https://github.com/KadenB20/PROTOCOL-Community/releases)
 
 [![VirusTotal: View scan report](https://img.shields.io/badge/VirusTotal-View_scan_report-blue)](https://www.virustotal.com/gui/file/40afce362d237cc63343d5129958f053ac8e79fea6f69444de6fc00aa702d61a/detection)

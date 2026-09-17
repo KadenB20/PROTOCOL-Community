@@ -3,6 +3,22 @@
 Start with the parts you already track. You do not need to fill in every section.
 The screenshots use made-up example data, not recommended targets.
 
+## Set up your workspace
+
+Enter a name or nickname and choose your units, region and appearance. Pick a
+starting preset or use Custom Setup to choose your areas. After creating the
+workspace, select Start Using PROTOCOL or Continue Customizing. The remaining
+steps are optional.
+
+Return through Settings → Workspace & Data → Resume Setup to explore settings,
+save views, add real tracking records or review your choices. Search settings to
+find a specific control, and save options for later without enabling them.
+Changing a preset shows a preview and keeps your own adjustments by default.
+
+If you already have a PROTOCOL backup, choose Restore from Backup on the Windows
+app's first setup screen. Check the preview before confirming. This restores into
+an empty workspace; it does not replace an existing one.
+
 ## Record a day
 
 Open Daily Tracker and choose the day. Add the bodyweight, sleep, activity,
@@ -27,6 +43,10 @@ In Training, save your program and record the workout after training. Use a prev
 workout or program as a starting point. Save a draft if you are not finished.
 
 ## Review your week
+
+Save a Daily view to reuse your field order and spacing. Training, Recovery and
+Phase review views let you choose the sections and date range you want to see.
+Views display saved records; use their source links when you need to edit one.
 
 Use the Check-ins tab in Daily Tracker to create a form with the questions you
 want to answer each week. Add your answers, look back at the week's results, and
